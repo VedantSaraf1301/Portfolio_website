@@ -29,12 +29,12 @@ const projects = [
     featured: true,
   },
   {
-    title: "Digital War Memorial – Bharat Ke Veer",
+    title: "Bharat ke Veer – Digital Tribute Platform",
     description:
-      "A Digital War Memorial web app built with React.js to honor Indian soldiers. Includes search & filter by name, operation, or year with responsive design for accessibility across all devices.",
-    tags: ["React.js", "JavaScript", "CSS", "Responsive Design"],
-    github: "https://github.com/VedantSaraf1301/Digital-War-Memorial",
-    live: "https://bharatkeveer-delta.vercel.app/",
+      "Full-stack tribute platform honouring India's armed forces, scientists, intelligence operatives, and civilian heroes. Daily AI-generated tribute emails via Vercel cron, double opt-in subscription with verification + unsubscribe tokens, category profile pages, and admin tooling — built on Next.js 16, Prisma + Supabase, and Resend.",
+    tags: ["Next.js", "Prisma", "Supabase", "Resend", "Gemini AI", "Tailwind"],
+    github: "https://github.com/VedantSaraf1301/BharatKeVeer",
+    live: "https://bharatkeveer.org",
     gradient: "from-yellow-500 to-amber-400",
     featured: true,
   },

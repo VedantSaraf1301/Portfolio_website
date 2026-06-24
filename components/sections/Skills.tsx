@@ -6,36 +6,44 @@ import { Separator } from "@/components/ui/separator";
 
 const skillCategories = [
   {
-    category: "Frontend & Frameworks",
+    category: "Languages",
     color: "from-yellow-400 to-amber-500",
     skills: [
       { name: "JavaScript", level: 90 },
-      { name: "React.js", level: 88 },
-      { name: "Next.js", level: 85 },
       { name: "TypeScript", level: 80 },
-      { name: "Tailwind CSS", level: 85 },
-    ],
-  },
-  {
-    category: "Backend & Languages",
-    color: "from-amber-400 to-yellow-500",
-    skills: [
       { name: "C / C++", level: 85 },
-      { name: "Node.js", level: 82 },
-      { name: "Express.js", level: 78 },
       { name: "Python", level: 75 },
       { name: "Java", level: 72 },
     ],
   },
   {
-    category: "Database & Tools",
+    category: "Frameworks",
+    color: "from-amber-400 to-yellow-500",
+    skills: [
+      { name: "React.js", level: 88 },
+      { name: "Next.js", level: 85 },
+      { name: "Node.js", level: 82 },
+      { name: "Express.js", level: 78 },
+      { name: "Tailwind CSS", level: 85 },
+    ],
+  },
+  {
+    category: "Databases",
     color: "from-yellow-500 to-amber-400",
     skills: [
-      { name: "Git & GitHub", level: 88 },
       { name: "MySQL", level: 80 },
       { name: "MongoDB", level: 75 },
       { name: "Prisma ORM", level: 72 },
-      { name: "Postman / REST", level: 82 },
+    ],
+  },
+  {
+    category: "Utilities",
+    color: "from-amber-500 to-yellow-400",
+    skills: [
+      { name: "Git & GitHub", level: 88 },
+      { name: "Postman", level: 82 },
+      { name: "REST APIs", level: 82 },
+      { name: "JWT Auth", level: 75 },
     ],
   },
 ];
@@ -73,7 +81,7 @@ export default function Skills() {
           initial="hidden"
           whileInView="visible"
           viewport={viewportOptions}
-          className="grid md:grid-cols-3 gap-8 mb-16"
+          className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16"
         >
           {skillCategories.map(({ category, color, skills }) => (
             <motion.div
