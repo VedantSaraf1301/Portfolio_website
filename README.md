@@ -2,7 +2,7 @@
 
 Personal portfolio website built to showcase my projects, skills, and background as an Information Science student and Full Stack Developer.
 
-**Live →** [your-vercel-url.vercel.app](https://your-vercel-url.vercel.app)
+**Live →** [https://VedantSarafPortfolio.app/](https://vedant-saraf-portfolio.vercel.app/)
 
 ---
 
